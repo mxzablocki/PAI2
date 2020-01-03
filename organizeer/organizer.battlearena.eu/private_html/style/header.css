@@ -1,0 +1,53 @@
+#header
+{
+	/*background: url("../obrazy/logo.png") no-repeat left top;*/
+	width:100%;
+	/*max-height:185px;*/
+	max-width:1200px;
+	margin: 0 auto;
+	padding-top:20px;
+}
+
+
+
+a.more {
+    margin-bottom: 20px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.frame a .more {
+    display: none;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.55) url(../obrazy/ikonki/icon-more.png) no-repeat center center;
+}
+
+#loader{background-image:url('http://battlearena.eu/img/load.gif');background-repeat:no-repeat;width:220px;height:19px;padding-bottom:15px;}
+
+#gracze{
+	width:100%;
+	background:rgba(0,0,0,0.3);
+	margin: 0 auto;
+	text-align:center;
+	color:#a2a2a2;
+	}
+	
+#gracze tr td {
+}
+	
+#gracze tr.tytuly td{
+	text-align:center;
+	
+	border:1px;
+	border-color:#a2a2a2;
+	border-style:dashed;
+	}
+	
+#server_tekst { color: #a2a2a2; width:100%; margin: 0 auto;}
+
+.site-generator a{ color:#666600;font-weight:bold;}

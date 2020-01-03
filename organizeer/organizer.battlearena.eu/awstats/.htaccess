@@ -1,0 +1,7 @@
+Options -Indexes +ExecCGI
+AddHandler cgi-script .pl
+DirectoryIndex awstats.pl
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.organizer.battlearena.eu$ [NC]
+RewriteRule ^(.*)$ http://organizer.battlearena.eu/awstats/$1 [R=301,L]

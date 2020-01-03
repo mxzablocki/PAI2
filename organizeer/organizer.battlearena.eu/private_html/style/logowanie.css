@@ -1,0 +1,18 @@
+.g-recaptcha{ 
+	margin:0 auto; 
+    display: table;
+}
+
+@media only screen and ( max-width: 657px ) {
+	#rc-imageselect, .g-recaptcha {
+		transform:scale(0.77);
+		-webkit-transform:scale(0.77);
+		transform-origin:0 0;
+		-webkit-transform-origin:0 0;
+		
+	}
+	
+	.g-recaptcha{
+		margin-left: 21px;
+	}
+}

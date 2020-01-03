@@ -1,0 +1,8 @@
+#error404{
+padding:20px;
+text-align:center;
+color:red;
+font-size:20px;
+}
+
+#error404 b{color:white;font-size:14px;text-align: justify;display:block;}

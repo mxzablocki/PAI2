@@ -1,0 +1,15 @@
+input[name="tytul"]
+{
+	width:100%;
+	font-size:28px;
+}
+
+textarea[name="tresc"] {
+    border: 0 none white;
+    overflow: hidden;
+    outline: none;
+	box-sizing: border-box;
+    resize: none;
+	width:100%;
+	padding:10px;
+}

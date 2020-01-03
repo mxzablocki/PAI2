@@ -1,0 +1,74 @@
+.details .author{
+padding-left:20%;
+position: absolute;
+left: 60px;
+font-weight:bold;
+color:#86aca3;
+}
+
+#title{margin-bottom:10px;padding-bottom:10px;border-bottom:1px white solid;}
+
+.one-two{
+	width:49%;
+	margin-right: 2%;/*0.9975247%;*/
+	float:left;
+}
+.one-three{
+	width:32%;
+	margin-right: 1%;/*0.9975247%;*/
+	float:left;
+}
+.one-four{
+	width:24%;
+	margin-right: 1.33%;/*0.9975247%;*/
+	float:left;
+}
+
+.one-five{
+	width:19%;
+	margin-right: 1%;/*0.9975247%;*/
+	float:left;
+}
+
+.last{
+	margin-right:0;
+}
+.pojemnik{
+	overflow:hidden;
+}
+
+
+@media only screen and ( max-width: 657px ) {
+	/*.przypisane_osoby x{
+		content:"Liczba osób ";
+	}*/
+	.przypisane_osoby x:before{
+		content:"Przypisane osóby : ";
+	}
+	.id_firmy x:before{
+		content:"ID Firmy : ";
+	}
+	table#lprac tr td:nth-child(1)
+	{
+		border-top:1px solid silver;
+	}
+	table#lprac tr td:nth-child(2)
+	{
+		font-weight:bold;
+		padding: 0 10px;
+		width: calc(100% - 20px);
+		margin-top:10px;
+		margin-bottom:5px;
+	}
+	
+	.firmy tr{
+		border-bottom:1px solid silver;
+		border-top:1px solid silver;
+	}
+	.firmy tr td a{
+		font-size:22px;
+		margin:5px 0;
+		display:block;
+		background:rgba(0,0,0,0.3);
+	}
+}
